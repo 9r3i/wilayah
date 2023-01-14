@@ -20,7 +20,7 @@ Thanks a lot, mas.
 ## Sample
 Sample website page, as demo or testing. in [https://9r3i.github.io/force-sample/wilayah.html](https://9r3i.github.io/force-sample/wilayah.html?p=test-wilayah)
 
-The sample is plugged in ForceWebsite app.
+The sample is plugged in [ForceWebsite](https://github.com/9r3i/force-website) app.
 
 
 
