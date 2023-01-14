@@ -27,7 +27,7 @@ The sample is plugged in [ForceWebsite](https://github.com/9r3i/force-website) a
 # Usage (NodeJS)
 
 ### Install
-```bash
+```
 $ npm i wilayah
 ```
 
@@ -44,7 +44,7 @@ const { WilayahClient } = require('wilayah');
 ```
 
 ### Result
-```json
+```
 {
   '11': 'ACEH',
   '12': 'SUMATERA UTARA',
@@ -132,7 +132,7 @@ Desa Baros, Arjasari, KAB. BANDUNG, JAWA BARAT
 ```
 
 ### Result
-```json
+```
 {
   '11': 'ACEH',
   '12': 'SUMATERA UTARA',
