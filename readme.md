@@ -196,23 +196,23 @@ First path is level 1 wilayah or province, fetch index using path index, sample:
 await wilayah.fetch('index');
 ```
 or number of level 1 index, sample of level 2 index of JAWA BARAT:
-```
+```js
 await wilayah.fetch('32/index');
 ```
 
 ### Level 2 index
 Second level is for level 2 as Kabupaten or Kota, sample of level 2 index of JAWA BARAT:
-```
+```js
 await wilayah.fetch('32/index');
 ```
 or number of level 2 index, sample of level 3 index of KAB. BANDUNG:
-```
+```js
 await wilayah.fetch('32/04/index');
 ```
 
 ### Level 3 index
 Third level is for kecamatan, sample of level 4 index of Banjaran:
-```
+```js
 await wilayah.fetch('32/04/13');
 ```
 
