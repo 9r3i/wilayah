@@ -5,7 +5,7 @@
 [![Stars](https://img.shields.io/github/stars/9r3i/wilayah.svg)](https://github.com/9r3i/wilayah/stargazers)
 [![Issues](https://img.shields.io/github/issues/9r3i/wilayah.svg)](https://github.com/9r3i/wilayah/issues)
 [![Release](https://img.shields.io/github/release/9r3i/wilayah.svg)](https://github.com/9r3i/wilayah/releases)
-[![Package](https://img.shields.io/npm/v/wilayah.svg?label=npm)](https://www.npmjs.com/package/@9r3i/wilayah)
+[![Package](https://img.shields.io/npm/v/wilayah.svg?label=npm)](https://www.npmjs.com/package/wilayah)
 [![Donate](https://img.shields.io/badge/donate-paypal-orange.svg)](https://paypal.me/9r3i)
 
 
@@ -27,12 +27,12 @@ The sample is plugged in [ForceWebsite](https://github.com/9r3i/force-website) a
 # Usage (NodeJS)
 
 ### Install
-```
+```bash
 $ npm i wilayah
 ```
 
 ### Usage
-```
+```js
 const { WilayahClient } = require('wilayah');
 
 (async function(){
@@ -44,7 +44,7 @@ const { WilayahClient } = require('wilayah');
 ```
 
 ### Result
-```
+```json
 {
   '11': 'ACEH',
   '12': 'SUMATERA UTARA',
@@ -122,7 +122,7 @@ Desa Baros, Arjasari, KAB. BANDUNG, JAWA BARAT
 ```
 
 ### Usage
-```
+```js
 (async function(){
   const host='https://9r3i.github.io/wilayah/api/2022/',
   wilayah=new WilayahClient(host),
@@ -132,7 +132,7 @@ Desa Baros, Arjasari, KAB. BANDUNG, JAWA BARAT
 ```
 
 ### Result
-```
+```json
 {
   '11': 'ACEH',
   '12': 'SUMATERA UTARA',
