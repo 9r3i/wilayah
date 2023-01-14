@@ -1,0 +1,42 @@
+.wilayah-select{
+  background-color:#fff;
+  border:1px solid #ccc;
+  padding:5px 9px;
+  margin:0px;
+  width:100%;
+  font-size:16px;
+  color:#333;
+  transition:all 0.3s ease 0s;
+  outline:none;
+  border-radius:3px;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  overflow-x:hidden;
+  font-family:'arialnarrow',system-ui,monospace;
+  font-weight:normal;
+  font-style:normal;
+}
+.wilayah-select:before{
+  font-family:'arialnarrow',system-ui,monospace;
+  font-weight:normal;
+  color:#333;
+}
+.wilayah-select:hover{
+  background-color:#f9f9f9;
+}
+.wilayah-select:focus{
+  background-color:#f1f1f1;
+}
+.wilayah-select:disabled{
+  opacity:0.8;
+}
+.wilayah-select-parent{
+  margin:10px;
+  padding:10px;
+}
+.wilayah-select-result{
+  margin:10px;
+  padding:10px;
+}
+
