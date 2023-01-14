@@ -118,7 +118,7 @@ Desa Baros, Arjasari, KAB. BANDUNG, JAWA BARAT
 
 ### Install
 ```html
-<script src="https://https://9r3i.github.io/wilayah/wilayah.js"></script>
+<script src="https://9r3i.github.io/wilayah/wilayah.js"></script>
 ```
 
 ### Usage
@@ -170,6 +170,52 @@ Desa Baros, Arjasari, KAB. BANDUNG, JAWA BARAT
   '92': 'PAPUA BARAT'
 }
 ```
+
+
+# Methods
+
+### fetch
+Promise method, parameters:
+- ```path``` string of path
+
+Result will be an ```object``` on success or ```false``` on failed
+
+
+### fetchCB
+Callback method, parameters:
+- ```path``` string of path
+- ```callback``` function of callback
+  - callback argument will be an ```object``` on success or ```false``` on failed
+
+
+# Path
+
+### Level 1 index
+First path is level 1 wilayah or province, fetch index using path index, sample: 
+```js
+await wilayah.fetch('index');
+```
+or number of level 1 index, sample of level 2 index of JAWA BARAT:
+```
+await wilayah.fetch('32/index');
+```
+
+### Level 2 index
+Second level is for level 2 as Kabupaten or Kota, sample of level 2 index of JAWA BARAT:
+```
+await wilayah.fetch('32/index');
+```
+or number of level 2 index, sample of level 3 index of KAB. BANDUNG:
+```
+await wilayah.fetch('32/04/index');
+```
+
+### Level 3 index
+Third level is for kecamatan, sample of level 4 index of Banjaran:
+```
+await wilayah.fetch('32/04/13');
+```
+
 
 
 # Closing
