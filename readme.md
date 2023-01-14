@@ -24,10 +24,19 @@ The sample is plugged in [ForceWebsite](https://github.com/9r3i/force-website) a
 
 # Usage (Server - NodeJS)
 
-### Install and Usage as Server
+### Install
 ```
 $ npm i wilayah
-$ npm start
+```
+
+### Usage as Server
+Create file ```start.js``` with content ```require('wilayah/start')```
+```
+$ echo "require('wilayah/start')">start.js
+```
+Then start the server
+```
+$ node start
 ```
 Output:
 ```
