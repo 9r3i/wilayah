@@ -15,13 +15,25 @@ Database wilayah non-SQL, parsed as JSON
 ### Idea
 Inspired by [@cahyadsn/wilayah](https://github.com/cahyadsn/wilayah) working as SQL and PHP app, then I've got an idea to build my own wilayah repo but parsed as JSON, base on his repo with his permission.
 
-Thanks a lot, mas.
-
 ## Sample
 Sample website page, as demo or testing. in [https://9r3i.github.io/force-sample/wilayah.html](https://9r3i.github.io/force-sample/wilayah.html?p=test-wilayah)
 
 The sample is plugged in [ForceWebsite](https://github.com/9r3i/force-website) app.
 
+
+
+# Usage (Server - NodeJS)
+
+### Install and Usage as Server
+```
+$ npm i wilayah
+$ npm start
+```
+Output:
+```
+WilayahServer on http://localhost:3000
+```
+Then wilayah server is ready.
 
 
 # Usage (NodeJS)
@@ -31,7 +43,7 @@ The sample is plugged in [ForceWebsite](https://github.com/9r3i/force-website) a
 $ npm i wilayah
 ```
 
-### Usage
+### Usage as Client
 ```js
 const { WilayahClient } = require('wilayah');
 
