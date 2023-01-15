@@ -1,0 +1,29 @@
+{
+  "name": "wilayah",
+  "version": "1.3.0",
+  "description": "Module wilayah as client and server",
+  "main": "wilayah.js",
+  "scripts": {
+    "start": "node start.js",
+    "client": "node client.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "wilayah",
+    "daerah",
+    "database",
+    "server",
+    "client",
+    "json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9r3i/wilayah.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
+  },
+  "author": "9r3i",
+  "license": "MIT"
+}

@@ -198,7 +198,7 @@ Desa Baros, Arjasari, KAB. BANDUNG, JAWA BARAT
 
 ### Install
 ```html
-<script src="https://9r3i.github.io/wilayah/wilayah.js"></script>
+<script src="https://9r3i.github.io/wilayah/wilayah.client.js"></script>
 ```
 
 ### Usage
