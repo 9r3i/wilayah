@@ -38,9 +38,13 @@ Then start the server
 ```
 $ node start
 ```
+Or with specific port, default: 3000
+```
+$ node start 4000
+```
 Output:
 ```
-WilayahServer on http://localhost:3000
+WilayahServer on http://localhost:4000
 ```
 Then wilayah server is ready.
 
