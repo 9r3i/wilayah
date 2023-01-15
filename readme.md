@@ -49,6 +49,60 @@ WilayahServer on http://localhost:4000
 Then wilayah server is ready.
 
 
+# Usage (Client - NodeJS)
+
+### Install
+```
+$ npm i wilayah
+```
+
+### Usage as Client
+Create file ```client.js``` with content ```require('wilayah/client')```
+```
+$ echo "require('wilayah/client')">client.js
+```
+Then put some command with ```path``` like:
+```
+$ node client <path>
+```
+Read more about Leveling path [here](#path) below, and also learn how to show ```index```.
+
+Example:
+- Level 1 is province code, sample JAWA BARAT is 32
+- Level 2 is kabupaten or kota, sample KAB. BANDUNG is 04
+- Level 3 is kecamatan, sample Banjaran is 13
+
+So the path will be ```32/04/13```
+```
+$ node client 32/04/13
+```
+Output:
+```json
+{
+  "2001": "Kamasan",
+  "2002": "Banjaran Wetan",
+  "2003": "Banjaran Kulon",
+  "2005": "Ciapus",
+  "2006": "Sindangpanon",
+  "2007": "Kiangroke",
+  "2008": "Tarajusari",
+  "2012": "Mekarjaya",
+  "2013": "Margahurip",
+  "2016": "Neglasari",
+  "2018": "Pasirmulya"
+}
+```
+This client method assumes the host is ```https://9r3i.github.io/wilayah/api/2022/```
+
+If you wish to use your own host, you might customize like the [Usage as Client](#usage-as-client) below.
+
+Or use another argument in client CLI, like:
+```
+$ node client 32/04/13 http://localhost:4000/
+```
+The output will be the same as well as the database is.
+
+
 # Usage (NodeJS)
 
 ### Install
