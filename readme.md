@@ -65,7 +65,7 @@ Then put some command with ```path``` like:
 ```
 $ node client <path>
 ```
-Read more about Leveling path [here](#path) below, and also learn how to show ```index```.
+Read more about leveling path [here](#path) below, and also learn how to show ```index```.
 
 Example:
 - Level 1 is province code, sample JAWA BARAT is 32
@@ -94,7 +94,7 @@ Output:
 ```
 This client method assumes the host is ```https://9r3i.github.io/wilayah/api/2022/```
 
-If you wish to use your own host, you might customize like the [Usage as Client](#usage-as-client) below.
+If you wish to use your own host, you might customize like the [Usage as Client](#usage-as-client-1) below.
 
 Or use another argument in client CLI, like:
 ```
